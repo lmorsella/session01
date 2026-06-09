@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { AuthContext } from './AuthContext.js';
+import { AuthContext } from './context.js';
 
 const SESSION_KEY = 'auth_token';
 const REFRESH_KEY = 'refresh_token';
