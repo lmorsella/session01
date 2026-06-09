@@ -12,7 +12,7 @@ Aplicación web desarrollada con **React + Vite** que implementa una pantalla de
 
 ## Requisitos
 
-- Node.js 18 o superior
+- Node.js 20.19 o superior
 - npm 9 o superior
 - Backend corriendo en `http://localhost:8000` (ver `../backend/README.md`)
 
