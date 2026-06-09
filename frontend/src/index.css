@@ -1,0 +1,84 @@
+/* Spotify-inspired Design System */
+:root {
+  /* Colors */
+  --color-bg: #121212;
+  --color-surface: #181818;
+  --color-surface-mid: #1f1f1f;
+  --color-surface-card: #252525;
+  --color-accent: #1ed760;
+  --color-accent-border: #1db954;
+  --color-text: #ffffff;
+  --color-text-secondary: #b3b3b3;
+  --color-text-near-white: #cbcbcb;
+  --color-text-light: #fdfdfd;
+  --color-error: #f3727f;
+  --color-warning: #ffa42b;
+  --color-info: #539df5;
+  --color-border: #4d4d4d;
+  --color-border-light: #7c7c7c;
+
+  /* Typography */
+  --font-ui: 'SpotifyMixUI', 'CircularSp-Arab', 'CircularSp-Hebr', 'CircularSp-Cyrl',
+    'CircularSp-Grek', 'CircularSp-Deva', 'Helvetica Neue', helvetica, arial,
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS Gothic', sans-serif;
+  --font-title: 'SpotifyMixUITitle', 'CircularSp-Arab', 'CircularSp-Hebr', 'CircularSp-Cyrl',
+    'CircularSp-Grek', 'CircularSp-Deva', 'Helvetica Neue', helvetica, arial,
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', Meiryo, 'MS Gothic', sans-serif;
+
+  /* Shadows */
+  --shadow-heavy: rgba(0, 0, 0, 0.5) 0px 8px 24px;
+  --shadow-medium: rgba(0, 0, 0, 0.3) 0px 8px 8px;
+  --shadow-inset: rgb(18, 18, 18) 0px 1px 0px, rgb(124, 124, 124) 0px 0px 0px 1px inset;
+
+  font-family: var(--font-ui);
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+  color-scheme: dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-text);
+}
+
+button {
+  font-family: var(--font-ui);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+input {
+  font-family: var(--font-ui);
+}
