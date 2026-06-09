@@ -147,7 +147,6 @@
   background-color: var(--color-surface);
   border-radius: 8px;
   padding: 16px;
-  cursor: pointer;
   transition: background-color 0.15s ease;
   display: flex;
   flex-direction: column;
